@@ -1,0 +1,113 @@
+body {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:60px;
+	margin-bottom: 60px;
+	background-color: #fefefe;
+	font-size: 16px;
+	line-height:1.4;
+	font-family: Open Sans, Arial;
+	color: #454545;
+	text-align: justify;
+}
+a {
+	color:#941352;
+}
+
+a:visited{
+	color: #07a;
+}
+
+li img{
+	width: 1em;
+}
+
+h1{
+	;
+	
+}
+
+
+.green{
+	color: #16a085;
+}
+
+.red{
+	color:#c0392b;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.shitty_blue{
+	color:#00e;
+}
+
+.maj {
+	font-family: monospace;
+	font-size: 1em;
+}
+
+.small1 {
+	font-size:0.8em;
+}
+
+.twocolumns{
+	display:block;
+}
+
+.twocolumns:after{
+	display: block;
+    content: "";
+    clear: both;
+}
+
+
+.left{
+	float: left;
+	width:40%;
+}
+.right{
+	float:right;
+	width:55%;
+	margin-left:10px;
+}
+.logo img.logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+blockquote{
+	margin: 30px 0px 30px 0px;
+}
+
+blockquote:before{
+font-family: Times New Roman,Times,Arial;
+color: #666;
+content: open-quote;
+font-size:2.2em;
+font-weight:600;
+width:1.2rem;
+margin-right:5px;
+float: left;
+}
+
+
+blockquote span{
+	float: left;
+	margin-left:20px;
+	margin-top:10px;
+}
+
+blockquote author{
+	display:block;
+	clear: both;
+	font-size:0.7em;
+	font-style: italic;
+}
+
+blockquote author:before{
+	content:"- ";
+margin-right:5px;
+}
